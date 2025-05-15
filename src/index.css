@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-thin-clean {
+  scrollbar-width: thin;
+  scrollbar-color: #6b7280 transparent; /* thumb, track */
+}
+.scrollbar-thin-clean::-webkit-scrollbar {
+  height: 6px;
+}
+.scrollbar-thin-clean::-webkit-scrollbar-thumb {
+  background-color: #6b7280;
+  border-radius: 10px;
+}
+.scrollbar-thin-clean::-webkit-scrollbar-track {
+  background: transparent;
+}
