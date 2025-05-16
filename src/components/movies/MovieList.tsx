@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useState } from "react"
-import type { Movie, MovieResponse } from "../types/movie"
-import tmdb from "../api/apiHelper"
+import type { Movie, MovieResponse } from "../../types/movie"
+import tmdb from "../../api/apiHelper"
 import SearchBar from "./Searchbar"
-import SkeletonCard from "./ui/Skeleton"
-import CategoryTabs from "./movies/CategoryTab"
-import MovieGrid from "./movies/MovieGrid"
-import Button from "./ui/Button"
+import SkeletonCard from "../ui/Skeleton"
+import CategoryTabs from "./CategoryTab"
+import MovieGrid from "./MovieGrid"
+import Button from "../ui/Button"
 import { ArrowDownIcon } from "@heroicons/react/16/solid"
   
 export default function() {

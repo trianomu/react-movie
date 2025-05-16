@@ -1,6 +1,6 @@
 // MovieList.test.tsx
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import MovieList from '../components/MovieList';
+import MovieList from '../components/movies/MovieList';
 import { MemoryRouter } from 'react-router-dom';
 import tmdb from '../api/apiHelper';
 
